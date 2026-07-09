@@ -32,6 +32,8 @@ class View(ft.UserControl):
         row1 = ft.Row([self._ddrating1,self._ddrating2, self._btnCreaGrafo], alignment=ft.MainAxisAlignment.CENTER,
                       vertical_alignment=ft.CrossAxisAlignment.END)
 
+
+
         self._page.controls.append(row1)
 
         self._btnCammino = ft.ElevatedButton(text="Trova Cammino", on_click=self._controller.handleCammino)
